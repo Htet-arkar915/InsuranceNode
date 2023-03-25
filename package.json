@@ -22,13 +22,14 @@
     "nodemailer": "^6.9.1",
     "nvm": "^0.0.4",
     "pdf-lib": "^1.17.1",
+    "pdf-node": "^1.0.1",
     "pdfjs-dist": "^3.4.120",
     "underscore": "^1.13.6",
     "uuid": "^9.0.0",
     "xhr2": "^0.2.1"
   },
   "engines": {
-    "node": ">=14 <15"
+    "node": ">=14 <18.12.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
