@@ -1,24 +1,8 @@
-const { PDFNet } = require("@pdftron/pdfnet-node");
+const pdf = require("pdf-node");
 const mailer = require("nodemailer");
 const fs = require("fs");
 const path = require("path");
 
-//PDFNet.initialize()
-//  .then(async () => {
-//    const inputpath = path.resolve(__dirname, "./file/insurance.pdf");
-//    const outputpath = path.resolve(__dirname, "./file/update.pdf");
-//    const pdfdoc = await PDFNet.PDFDoc.createFromFilePath(inputpath);
-//    await pdfdoc.initSecurityHandler();
-//    const replacer = await PDFNet.ContentReplacer.create();
-//    const page = await doc.getPage(1);
-//
-//    await replacer.addString("numberofday", "3/24/2023");
-//    await replacer.process(page);
-//    pdfdoc.save(outputpath, PDFNet.PDFDoc.SavePotions.e_linearized);
-//  })
-//  .catch((e) => {
-//    console.error(err);
-//  });
 const smtpProtocol = mailer.createTransport({
   service: "Gmail",
   auth: {

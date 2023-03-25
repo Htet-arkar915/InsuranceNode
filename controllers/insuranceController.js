@@ -33,7 +33,7 @@ const getInsuranceResult = async (req, res) => {
     } else {
       Iprice = insurance.ageabove75;
     }
-    res.status(201).json({ price: `${Iprice}` });
+    res.status(201).json({ price: Iprice });
   }
   //res.json({ message: "data" });
   //res.end();

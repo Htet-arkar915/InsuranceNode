@@ -339,3 +339,5 @@
 20230325	08:50:47	7d83bec6-d5af-4b19-9aae-ffe90e8dfe2f	GET 	 undefined 	 /
 20230325	08:50:48	cc8532c9-8ae5-4112-9d4c-5e31e390c291	GET 	 undefined 	 /css/style.css
 20230325	08:50:49	e7fd9b5d-941d-4c0a-b09a-66b55a36a918	GET 	 undefined 	 /favicon.ico
+20230325	14:01:56	d45564d3-2e05-46b4-8a45-954e2bb265cb	POST 	 undefined 	 /insurance
+20230325	14:02:45	70e32cd3-9127-4427-9a62-76b8c9ac7c24	POST 	 undefined 	 /insurance
