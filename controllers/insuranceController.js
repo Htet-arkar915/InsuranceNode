@@ -39,17 +39,10 @@ const getInsuranceResult = async (req, res) => {
   //res.end();
 };
 const getAllInsurance = async (req, res) => {
-  res.header(Access - Control - Allow - Origin, "*");
+  res.header("Access-Control-Allow-Origin", "*");
   res.header(
-    Access - Control - Allow - origin,
-    "https://insurancenode.onrender.com/"
-  );
-  res.header(
-    Access - Control - Allow - Headers,
-    Origin,
-    X - Requested - With,
-    Content - Type,
-    Accept
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
   );
 
   const allinsurances = await Insurance.find();
