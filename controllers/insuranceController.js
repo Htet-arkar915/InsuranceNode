@@ -44,6 +44,7 @@ const getAllInsurance = async (req, res) => {
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
   );
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
 
   const allinsurances = await Insurance.find();
   if (!allinsurances) {
